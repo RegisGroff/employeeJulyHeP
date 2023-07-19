@@ -4,7 +4,6 @@ public class Employee {
     private String name;
     protected Integer hours;
     protected Double valuePerHour;
-
     public Employee() {
     }
 
@@ -39,14 +38,5 @@ public class Employee {
     }
     public Double payment(){
         return hours * valuePerHour;
-    }
-
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", hours=" + hours +
-                ", valuePerHour=" + valuePerHour +
-                '}';
     }
 }
